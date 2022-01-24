@@ -1,0 +1,38 @@
+.header-carousel-button {
+  background-color: black;
+  width: 3rem;
+  height: 3rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 1;
+}
+
+.carousel-control {
+  &-prev {
+    margin-left: 2rem;
+    &-icon {
+      background-size: cover;
+    }
+  }
+
+  &-next {
+    margin-right: 2rem;
+    &-icon {
+      background-size: cover;
+    }
+  }
+}
+
+
+.header-banner {
+    position: absolute;
+    top: 4rem;
+    left: 6rem;
+    background-color: white;
+    display: block;
+    max-width: 28rem;
+    padding: 2rem;
+}

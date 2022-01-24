@@ -19,85 +19,138 @@
     <title>Udemy</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img
-            src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg"
-            alt=""
-            width="90"
-          />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 align-items-center">
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Categories
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Business</a></li>
-                <li><a class="dropdown-item" href="#">Developement</a></li>
-              </ul>
-            </li>
-            <li class="nav-item flex-auto">
-              <form class="d-flex">
-                <input
-                  class="form-control rounded-pill border-dark"
-                  type="search"
-                  placeholder="Search for anything"
-                  aria-label="Search for anything"
-                />
-              </form>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">Udemy Business</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">Teach on Udemy</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link"><i class="bi bi-cart3"></i></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link"
-                ><button type="button" class="btn btn-outline-dark">
-                  Log in
-                </button></a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link"
-                ><button type="button" class="btn btn-dark">Sign up</button></a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link"
-                ><button type="button" class="btn btn-outline-dark">
-                  <i class="bi bi-globe"></i></button
-              ></a>
-            </li>
-          </ul>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg"
+              alt=""
+              width="90"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul
+              class="navbar-nav me-auto mb-2 mb-lg-0 w-100 align-items-center"
+            >
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Categories
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Business</a></li>
+                  <li><a class="dropdown-item" href="#">Developement</a></li>
+                </ul>
+              </li>
+              <li class="nav-item flex-auto">
+                <form class="d-flex">
+                  <input
+                    class="form-control rounded-pill border-dark"
+                    type="search"
+                    placeholder="Search for anything"
+                    aria-label="Search for anything"
+                  />
+                </form>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Udemy Business</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Teach on Udemy</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link"><i class="bi bi-cart3"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"
+                  ><button type="button" class="btn btn-outline-dark">
+                    Log in
+                  </button></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"
+                  ><button type="button" class="btn btn-dark">
+                    Sign up
+                  </button></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"
+                  ><button type="button" class="btn btn-outline-dark">
+                    <i class="bi bi-globe"></i></button
+                ></a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </nav>
+    </header>
+
+    <div class="container">
+      <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+              <div><img
+                src="https://img-c.udemycdn.com/notices/web_banner/slide_1_image_udlite/ff318b3a-1121-446d-af9b-01b43b220165.jpg"
+                class="d-block w-100"
+                alt="..."
+              /></div>
+              <div class="header-banner">
+                  <h4>Thanks for learning with us</h4>
+                  <p>Yes, you Yahya. We’re rewarding learners like you with courses from $12.99. Offer ends today.</p>
+              </div>
+          </div>
+          <div class="carousel-item">
+              <div><img
+                src="https://img-c.udemycdn.com/notices/web_banner/slide_2_image_udlite/a41e21b6-f8c3-45c4-8413-c659c7261cc7.jpg"
+                class="d-block w-100"
+                alt="..."
+              /></div>
+              <div class="header-banner">
+                <h4>Discover your future</h4>
+                <p>Offer ends today. Get started with courses in Excel and Presentation Skills. Now from $12.99.</p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev header-carousel-button"
+          type="button"
+          data-bs-target="#header-carousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next header-carousel-button"
+          type="button"
+          data-bs-target="#header-carousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-    </nav>
+    </div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
