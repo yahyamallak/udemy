@@ -3,5 +3,14 @@
 }
 
 section {
-    margin: 3rem auto;
+    margin: 3rem auto 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+        color: inherit;
+    }
 }
